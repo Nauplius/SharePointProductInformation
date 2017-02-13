@@ -6,7 +6,7 @@ Usage:
     Import-Module .\SharePointProductInformation.psm1
     Get-SPProductInformation
 ```
-The output consists of five fields: `DisplayName`: The name of the product, `IsLatest`: Is this the latest patch for that product, `Patch`: The name of the patch, `Version`: The patch version number, `SupportUrl`: The URL to the KB article ofr the patch, `MissingFrom`: Shows a value if one or more servers is missing this particular patch.
+The output consists of five fields: `DisplayName`: The name of the product, `IsLatest`: Is this the newest patch for that product installed to the farm (not the latest available patch), `Patch`: The name of the patch, `Version`: The patch version number, `SupportUrl`: The URL to the KB article for the patch, `MissingFrom`: Shows a value if one or more servers is missing this particular patch.
 You can format the output as a table (`| ft -a`). The default output is in a list format.
 
 Example output:
