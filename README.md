@@ -1,5 +1,5 @@
 # SharePoint Product Information
-This PowerShell module provides information on each product and patch for a SharePoint 2010, 2013, or 2016 environment. As SharePoint Server 2016 no longer updates the build number in a consistent manner, it is important to determine what the current patch level is.
+This PowerShell module provides information on each product and patch for a SharePoint 2010, 2013, or 2016 environment. As SharePoint Server 2016 and 2019 no longer update the build numbers in a consistent manner, it is important to determine what the current patch level is.
 
 Usage:
 ```posh
